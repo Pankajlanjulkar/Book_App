@@ -1,0 +1,37 @@
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 600px;
+    margin: 40px auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+input {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.book {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+}

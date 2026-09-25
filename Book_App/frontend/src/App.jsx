@@ -18,7 +18,7 @@ function App() {
         try {
 
             const response = await axios.get(
-                'http://localhost:4000/books'
+                'https://bookapp-production-3659.up.railway.app/books'
             )
 
             setBooks(response.data)
@@ -40,7 +40,7 @@ function App() {
         try {
 
             await axios.post(
-                'http://localhost:4000/books',
+                'https://bookapp-production-3659.up.railway.app/books',
                 {
                     title: title,
                     author: author,
@@ -71,7 +71,9 @@ function App() {
         try {
 
             await axios.delete(
-                `http://localhost:4000/books/${id}`
+                await axios.delete(
+    `https://bookapp-production-3659.up.railway.app/books/${id}`
+)
             )
 
             getBooks()
